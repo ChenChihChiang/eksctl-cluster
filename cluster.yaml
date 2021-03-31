@@ -17,7 +17,7 @@ nodeGroups:
     maxSize: 3
     instancesDistribution:
       maxPrice: 0.1
-      instanceTypes: ["c5.large", "c5x.large"] # At least one instance type should be specified
+      instanceTypes: ["c5.large", "c5.xlarge"] # At least one instance type should be specified
       onDemandBaseCapacity: 0
       onDemandPercentageAboveBaseCapacity: 0
       spotInstancePools: 2
